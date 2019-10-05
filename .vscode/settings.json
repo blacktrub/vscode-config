@@ -1,0 +1,26 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "python.linting.enabled": false,
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "files.exclude": {
+        ".idea": true,
+        "env": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+    },
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.minimap.enabled": false,
+    "sqltools.useNodeRuntime": true
+}
+
