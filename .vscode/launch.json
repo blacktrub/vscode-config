@@ -6,9 +6,11 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
+            "justMyCode": false,
             "args": [
                 "runserver",
-                "--noreload"
+                "--noreload",
+                "--nothreading"
             ],
             "django": true
         }
